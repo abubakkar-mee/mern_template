@@ -1,0 +1,109 @@
+# -------------------------------
+# Node.js dependencies
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------------
+# Environment variables
+# -------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# -------------------------------
+# Build outputs
+# -------------------------------
+dist/
+build/
+public/build/
+*.cache/
+.cache/
+coverage/
+
+# -------------------------------
+# Logs
+# -------------------------------
+logs
+*.log
+logs/*
+debug.log
+error.log
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------------
+# OS and IDE files
+# -------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -------------------------------
+# Temporary files
+# -------------------------------
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swm
+*.swl
+
+# -------------------------------
+# React specific
+# -------------------------------
+# Local build files
+/.eslintcache
+/.parcel-cache
+/.next/
+.next/
+out/
+# react dev server cache
+.cache/
+# Vite cache
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+vite.config.mjs.timestamp-*
+
+# -------------------------------
+# MongoDB / Database dumps
+# -------------------------------
+dump/
+data/
+*.gz
+
+# -------------------------------
+# Miscellaneous
+# -------------------------------
+*.zip
+*.tar
+*.rar
+
+# -------------------------------
+# PM2 logs and configs
+# -------------------------------
+pids/
+*.pid
+*.seed
+*.pid.lock
+.pm2/
+
+# -------------------------------
+# Local environment files for backend
+# -------------------------------
+backend/.env
+frontend/.env
